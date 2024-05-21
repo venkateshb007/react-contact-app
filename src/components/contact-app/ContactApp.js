@@ -56,14 +56,14 @@ class ContactApp extends React.Component {
             </div>
           </div>
           <div className="row">
-            <div className="col-md-9">
+            <div className="col-md-8">
               {this.state.contacts ? (
                 <React.Fragment>
                   <ContactList contacts={this.state.contacts} pushContact={this.pullContact}/>
                 </React.Fragment>
               ) : null}
             </div>
-            <div className="col-md-3">
+            <div className="col-md-4">
               <ContactCard selectedContact = {this.state.selectedContact}/>
             </div>
           </div>
