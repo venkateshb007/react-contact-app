@@ -20,7 +20,6 @@ class App extends React.Component{
         </a>
       </nav>
       <ContactApp/>
-
     </div>
     )
   }
