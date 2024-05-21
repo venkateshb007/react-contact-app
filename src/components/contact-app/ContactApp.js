@@ -63,7 +63,7 @@ class ContactApp extends React.Component {
                 </React.Fragment>
               ) : null}
             </div>
-            <div className="col-md-">
+            <div className="col-md-3">
               <ContactCard selectedContact = {this.state.selectedContact}/>
             </div>
           </div>
